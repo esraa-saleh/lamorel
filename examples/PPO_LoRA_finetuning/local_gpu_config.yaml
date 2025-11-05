@@ -11,6 +11,7 @@ lamorel_args:
     main_process_ip: 127.0.0.1
     num_machines: 1
   llm_args:
+    seed: 42
     model_type: seq2seq
     model_path: t5-small
     pretrained: true
