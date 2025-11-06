@@ -13,7 +13,7 @@ lamorel_args:
   llm_args:
     seed: 42
     model_type: seq2seq
-    model_path: t5-small
+    model_path: /home/esraa1/models/t5-small
     pretrained: true
     minibatch_size: 192
     pre_encode_inputs: true
